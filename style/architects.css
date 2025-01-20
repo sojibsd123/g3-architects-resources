@@ -48,6 +48,7 @@
 }
 .display-flex{
   display: flex;
+  
 }
 
 /* Header style */
@@ -148,6 +149,28 @@
 }
 .sponspors-company img{
   filter: grayscale(100%);
+}
+/* fetures releted style */
+.fetures{
+  margin-top: 60px;
+  gap: 100px;
+}
+
+#fetures-section-title{
+  border-left: 5px solid #FF900E;
+  padding-left: 20px;
+}
+.fetures-card{
+  padding: 30px 42px 30px 30px;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.fetures-card .fetures-title{
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 
