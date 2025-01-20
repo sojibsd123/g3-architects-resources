@@ -16,6 +16,7 @@
 .section-title{
   font-size: 45px;
   font-weight: 700;
+  margin-bottom: 10px;
 }
 /* dark 01 */
 .text-color-dark{
@@ -109,6 +110,30 @@
 }
 .Features{
   font-weight: 800;
+}
+/* fact reeleted style */
+.facts-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-between;
+}
+.fact-card{
+  border: 1px solid #FF900E;
+  width: 241px;
+  height: 241px;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.fact-namber{
+  font-size: 45px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.fact-name{
+  margin-top: 5px;
 }
 
 
