@@ -153,7 +153,7 @@
 /* fetures releted style */
 .fetures{
   margin-top: 60px;
-  gap: 100px;
+  gap: 130px;
 }
 
 #fetures-section-title{
@@ -171,6 +171,15 @@
   font-weight: 600;
   margin-top: 0px;
   margin-bottom: 0px;
+}
+#experience-badge{
+  padding: 45px 42px;
+  margin-top: -100px;
+  margin-left: -100px;
+}
+#experience-year{
+  font-size: 3rem;
+  font-weight: bold;
 }
 
 
