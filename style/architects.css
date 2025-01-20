@@ -8,6 +8,15 @@
 }
 
 /* common style */
+.main{
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 70px 0px;
+}
+/* dark 01 */
+.text-color-dark{
+  color: #131313;
+}
 /* Dark 02 */
 .text-color-gray{
   color: #424242;
@@ -15,6 +24,9 @@
 /* Dark 03 */
 .text-color-body{
   color: #727272;
+}
+.text-primary{
+  color: #FF900E;
 }
 .btn-primary{
   font-size: 1.25rem;
@@ -59,6 +71,7 @@
 .banner{
   max-width: 1440px;
   margin: 0 auto;
+  padding-bottom: 60px;
 }
 .banner-content{
   text-align: center;
@@ -73,4 +86,36 @@
 }
 .banner-img{
   width: 100%;
+}
+/* Our feture section */
+.team-img{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.teams{
+  align-items: center;
+}
+.team-containt{
+  padding-left: 60px;
+  width: 540px;
+}
+.team-title{
+  font-size: 45px;
+}
+.quick-list{
+  font-weight: 700;
+}
+.Features{
+  font-weight: 800;
+}
+
+
+
+/* media query */
+
+@media screen and (max-width:576px) {
+  .navbar, .nav-links{
+    flex-direction: column;
+  }
 }
